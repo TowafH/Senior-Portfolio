@@ -3,6 +3,7 @@ import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
 import Project from './components/Project.jsx'
 import Skills from './components/Skills.jsx';
+import Resume from './components/Resume.jsx';
 
 // CSS
 import './App.css'
@@ -25,6 +26,7 @@ function App() {
           } />
 
         <Route path='/Skills' element={<Skills/>} />
+        <Route path='/Resume' element={<Resume/>} />
       </Routes>
     </div>
   )
