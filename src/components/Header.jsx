@@ -20,8 +20,8 @@ export default function Header(){
             
             {/* Right */}
             <div className="flex justify-end">
-                <a href="https://www.linkedin.com/in/towafh/" target="_blank" rel="noreferrer" ><div class="w-10 h-10 bg-[url('./InL.png')] hover:bg-[url('./In.png')] bg-cover bg-no-repeat transition-all duration-300"></div></a>            
-                <a href="https://github.com/TowafH" target="_blank" rel="noreferrer" ><div class="w-10 h-10 bg-[url('./GitHubL.png')] hover:bg-[url('./GitHub.png')] bg-cover bg-no-repeat transition-all duration-300"></div></a>        
+                <a href="https://www.linkedin.com/in/towafh/" target="_blank" rel="noreferrer" ><div class="w-10 h-10 bg-[url('/InL.png')] hover:bg-[url('/In.png')] bg-cover bg-no-repeat transition-all duration-300"></div></a>            
+                <a href="https://github.com/TowafH" target="_blank" rel="noreferrer" ><div class="w-10 h-10 bg-[url('/GitHubL.png')] hover:bg-[url('/GitHub.png')] bg-cover bg-no-repeat transition-all duration-300"></div></a>        
             </div>
         </div>
     )
