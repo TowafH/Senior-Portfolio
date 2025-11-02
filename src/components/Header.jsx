@@ -15,7 +15,7 @@ export default function Header(){
                 <Link to='/Projects' className="hover:text-gray-300">Projects</Link>
                 <Link to='/Skills' className="hover:text-gray-300">Skills</Link>
                 <Link to='/Resume' className="hover:text-gray-300">Resume</Link>
-                {/* <Link to='/Portfolios' className="hover:text-gray-300">Portfolios</Link> */}
+                <Link to='/Portfolios' className="hover:text-gray-300">Portfolios</Link>
             </div>
             
             {/* Right */}

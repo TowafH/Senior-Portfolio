@@ -6,8 +6,9 @@ import Skills from "./Skills.jsx"
 export default function Home() {
     // An array of slide objects
     const slides = [
-        {url: '/BAI.jpg', title: 'cat1'},
-        {url: '/APPLE.jpg', title: 'cat2'},
+        {url: '/BAI.jpg', title: 'Bloomberg Arts Internship'},
+        {url: '/APPLE.jpg', title: 'NYCPS Student App Design Challenge'},
+        {url: '/SKILLS.jpg', title: 'Skills USA'}
     ]
 
     return(

@@ -2,7 +2,7 @@ export default function Skills(props) {
     return(
         <div>
             {/* Tech Stack Header */}
-            <div className="flex justify-center p-6">
+            <div className="flex justify-center p-2 ">
                 <h1 className="text-2xl font-bold">Tech Stack</h1>
             </div>
 

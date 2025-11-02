@@ -10,9 +10,8 @@ export default function About() {
                 <div className="flex justify-center items-center gap-x-5">
                     <img src="./Headshot.jpg" className="w-50 h-auto rounded-full" />
                     <h1 className="w-150">
-                        I'm Towaf from Queens, New York. 
-                        I'm a senior at Thomas Edison CTE HS with a passion for Computer Science, 
-                        where I'm currently learning C# with Unity!
+                    Towaf is a senior in the Web/App Development CTE Track at Thomas A. Edison Career & Technical Education High School. 
+                    He is passionate about computer science, web development, and IT, he is actively expanding his skills by building projects with React, Python, Java, and C#
                     </h1>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import Home from './components/Home.jsx'
 import Project from './components/Project.jsx'
 import Skills from './components/Skills.jsx';
 import Resume from './components/Resume.jsx';
+import Portfolio from './components/Portfolio'
 
 // CSS
 import './App.css'
@@ -27,6 +28,12 @@ function App() {
 
         <Route path='/Skills' element={<Skills/>} />
         <Route path='/Resume' element={<Resume/>} />
+        <Route path='/Portfolios' element={
+          <div>
+            <Portfolio grade="11th Grade Portfolio" link="https://towafh.github.io/Junior-Portfolio/#/Home"/>
+            <Portfolio grade="10th Grade Portfolio" link="https://towafh.github.io/Sophomore-Portoflio/"/>
+          </div>
+          } />
       </Routes>
     </div>
   )
