@@ -21,6 +21,7 @@ function App() {
 
         <Route path='/Projects' element={
           <div className='flex flex-wrap gap-2 justify-center'>
+            <Project name="Whisp" link="https://whisp-three.vercel.app/"/>
             <Project name="MedPocket" link="https://thomas-a-edison-cte-hs.github.io/iAmsterdam/index.html"/>
             <Project name="Wave Zero" link="https://towafh.github.io/waveZero/"/>
           </div>
