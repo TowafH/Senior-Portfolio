@@ -9,7 +9,7 @@ export default function Project(props) {
                 <iframe
                 src={props.link}
                 frameBorder={0}
-                className="w-350 h-150 rounded-lg shadow-lg"
+                className="w-300 h-150 rounded-lg shadow-lg"
                 />
 
             </div>
