@@ -129,6 +129,9 @@ export default function Skills(props) {
                 <a href="https://badgr.com/public/assertions/vCwnJJpKSdi47PkZYVW9ug" target="_blank" rel="noreferrer" className="w-40">
                     <img src="./POSTMAN.png" alt="Postman Certificate" />
                 </a>
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fsenior-portfolio-peach.vercel.app%2F" target="_blank" rel="noreferrer" className="w-40">
+                    <img src="./VALIDATOR.png" alt="W3 Schools HTML Certificate" />
+                </a>
             </div>
         </div>
     )
