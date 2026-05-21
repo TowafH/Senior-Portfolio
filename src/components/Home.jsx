@@ -6,9 +6,13 @@ import Skills from "./Skills.jsx"
 export default function Home() {
     // An array of slide objects
     const slides = [
-        {url: '/BAI.jpg', title: 'Bloomberg Arts Internship'},
+        {url: '/AMAZON.jpeg', title: 'Amazon Future Engineer'},
+        {url: '/CONGRESS.jpg', title: 'Congressional App Challenge NY-06 Winner'},
         {url: '/APPLE.jpg', title: 'NYCPS Student App Design Challenge'},
-        {url: '/SKILLS.jpg', title: 'Skills USA'}
+        {url: '/BAI.jpg', title: 'Bloomberg Arts Internship'},
+        {url: '/SKILLS.jpg', title: 'Skills USA'},
+        {url: '/AWARDS.jpg', title: 'Senior Awards Night'},
+        {url: '/NTHS.jpg', title: 'National Technical Honor Society Induction Ceremony'}
     ]
 
     return(

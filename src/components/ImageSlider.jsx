@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export default function ImageSlider({ slides }) {
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -6,7 +6,7 @@ export default function ImageSlider({ slides }) {
     const sliderStyles = {
         overflow: 'hidden',
         width: '100%',
-        height: '100%',
+        height: '750px',
         position: 'relative'
     }
 
@@ -57,6 +57,16 @@ export default function ImageSlider({ slides }) {
         const newIndex = isLastSlide ? 0 : currentIndex + 1
         setCurrentIndex(newIndex)
     }
+
+    useEffect(() => {
+    const interval = setInterval(() => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+        )
+    }, 3000)
+
+    return () => clearInterval(interval)
+}, [])
 
     return (
         <div style={sliderStyles}>
